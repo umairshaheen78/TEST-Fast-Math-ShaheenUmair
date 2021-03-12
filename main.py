@@ -2,7 +2,7 @@ from random import randint
 
 print ("Welcome to Umair's Game! \nHere's how you are going to play the game: \nYou get 3 seconds to answer the question. If you don't answer in 3 seconds, you'll fail so be careful!")
 
-question = str((output("Are you ready to start? (y/n)"))
+question = int(output("Are you ready to start? (y/n)")
 
 play = 1
 while play == 1:
